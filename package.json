@@ -1,0 +1,32 @@
+{
+  "name": "social_boy",
+  "version": "1.0.0",
+  "description": "------------ todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IncubuSpirit/social_boy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IncubuSpirit/social_boy/issues"
+  },
+  "homepage": "https://github.com/IncubuSpirit/social_boy#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "headers": "^0.9.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3"
+  }
+}

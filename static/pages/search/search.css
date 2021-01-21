@@ -1,0 +1,83 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: transparent;
+    color: floralwhite;
+    height: 100%;
+    width: 100%;
+    padding:5px;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 80%;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form input[type=text] {
+    background-color: rgba(0,0,0,0.15);
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 25%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*
+.like{
+    -webkit-user-select: none;
+}
+
+video::-webkit-media-controls-play-button {
+    
+}
+
+video::-webkit-media-controls-volume-slider {
+    display: none;
+}
+
+video::-webkit-media-controls-mute-button {}
+
+video::-webkit-media-controls-timeline {}
+
+video::-webkit-media-controls-current-time-display {
+    display: none;
+}*/

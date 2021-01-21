@@ -1,0 +1,29 @@
+[
+    { 
+        "_id":{"username":"incubuSpirit","numpost":"p-1"},
+        "content":"../static/img/yoda.jpeg",
+        "descrizione":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia felis et consequat venenatis. Suspendisse bibendum dui nisi, eget molestie sem rhoncus eu. Phasellus a leo finibus, tempus magna malesuada, ullamcorper erat. Proin vitae tellus non metus placerat euismod sit amet vel lectus. Praesent vel mollis dui.",
+        "type":"img",
+        "dataup":"2020-1-20T12:00:00.000Z",
+        "like":100,
+        "dislike":2
+    },
+    {
+        "_id":{"username":"rjxky","numpost":"p-1"},
+        "content":"../static/img/video.mp4",
+        "descrizione":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia felis et consequat venenatis. Suspendisse bibendum dui nisi, eget molestie sem rhoncus eu. Phasellus a leo finibus, tempus magna malesuada, ullamcorper erat. Proin vitae tellus non metus placerat euismod sit amet vel lectus. Praesent vel mollis dui.",
+        "type":"vid",
+        "dataup":"2020-1-20T14:00:00.000Z",
+        "like":150,
+        "dislike":25
+    },
+    {
+        "_id":{"username":"rjxky","numpost":"p-2"},
+        "content":"",
+        "descrizione":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia felis et consequat venenatis. Suspendisse bibendum dui nisi, eget molestie sem rhoncus eu. Phasellus a leo finibus, tempus magna malesuada, ullamcorper erat. Proin vitae tellus non metus placerat euismod sit amet vel lectus. Praesent vel mollis dui.",
+        "type":"txt",
+        "dataup":"2020-1-20T08:00:00.000Z",
+        "like":89,
+        "dislike":70
+    }
+]

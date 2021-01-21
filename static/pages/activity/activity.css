@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: transparent;
+    color: floralwhite;
+    height: 100%;
+    width: 100%;
+    padding:5px;
+}
+
+.username{
+    font-style: italic; font-weight: bold; 
+    color: white; margin-top: 25px;
+    padding: 1%;
+}
+
+.propic{
+    
+}
+
+.text{
+    line-height: 1;
+}
+
+.desc{
+    display: inline;
+}
+
+.activity{
+    border: 1px solid rgba(75, 75, 75, 0.589);
+    height: 60px;
+    width: 100%;
+}
+
+.activitycell{
+    text-align: left; width: 100%; margin: 4%;
+}

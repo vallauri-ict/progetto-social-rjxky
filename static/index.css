@@ -1,0 +1,229 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: floralwhite;
+    height: 100%;
+    width: 100%;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border:none;
+}
+
+/********************************* jumbotron *********************************/
+#jumbotron {
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    color: floralwhite;
+    box-shadow: 0 -8px 8px 8px rgba(0, 0, 0, 0.7);
+}
+#title{
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.713);
+}
+
+/********************************* wrapper *********************************/
+#wrapper {
+    width: 100%;
+    margin: 0;
+    height: calc(100% - 146px);
+}
+
+/********************************* chat *********************************/
+#chat {
+    box-shadow: -8px 0 8px -8px rgba(0, 0, 0, 0.7) inset;
+    width: 100%;
+    height: 100%;
+}
+
+/********************************* feed *********************************/
+#feed {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/********************************* activity *********************************/
+#activity {
+    box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.7) 
+    inset;
+    height: 100%;
+    width: 100%;
+}
+
+/********************************* navbar *********************************/
+#navbar {
+    box-shadow: 0 -8px 8px -8px rgba(0, 0, 0, 0.7);
+    padding: 0px;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+}
+
+.form-inline{
+    height: 100%;
+}
+
+.nav-btn{
+    color:floralwhite;
+    margin:0 auto;
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+    width: 20%;
+    height: 100%;
+}
+
+#navbar a{
+    width: 20%;
+    height: 100%;
+}
+
+.nav-btn img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-btn:hover{
+    background-color:rgba(0,0,0,0.2);
+}
+
+/********************************* login popup *********************************/
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.85);
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+	color:black;
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container h1{
+  color: black;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+} */
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/********************************* snackbar *********************************/
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 75px; /* 75px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 75px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 75px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 75px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 75px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

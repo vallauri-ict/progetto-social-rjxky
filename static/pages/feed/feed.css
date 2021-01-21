@@ -1,0 +1,169 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: transparent;
+    color: floralwhite;
+    height: 100%;
+    width: 100%;
+    padding:5px;
+    position: relative;
+}
+
+.reaction-bar{
+    background-color: rgba(75, 75, 75, 0.589);
+    border-color: rgba(75, 75, 75, 0.589);
+}
+
+.reaction-bar button{
+    margin: 5px;
+}
+
+.reaction-bar-text{
+    background-color: rgba(75, 75, 75, 0.589);
+    border-color: rgba(75, 75, 75, 0.589);
+}
+
+.reaction-bar-text button{
+    margin: 5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.post{
+    background-color:rgb(46, 46, 46); width: auto; border-radius: 5px;
+    display: block; box-shadow: 1px 1px 4px 5px #0000004f;
+}
+
+.image-container{
+    text-align: center; margin-top: 25px;
+}
+
+.video-container{
+    text-align: center; margin-top: 25px; height: 100%;
+}
+
+.text-container{
+    font-size: 18pt; text-align: center; margin-top: 25px; height: 100%;
+}
+
+.image,.video{
+    width: 560px; height: 560px; margin-top: 25px;
+}
+
+.text{
+    text-align: center; margin-top: 25px;
+}
+
+.reaction-bar{
+    height: 40px; width: 560px; margin: 0 auto; 
+    border-radius:0px 0px 5px 5px; 
+    border-top: 0px solid rgba(75, 75, 75, 0.589); 
+    border-left: 1px solid rgba(75, 75, 75, 0.589); 
+    border-right: 1px solid rgba(75, 75, 75, 0.589); 
+    border-bottom: 1px solid rgba(75, 75, 75, 0.589);
+}
+
+.reaction-bar-text{
+    height: 40px; width: 100%; 
+    border-radius:0px 0px 5px 5px; 
+    border-top: 0px solid rgba(75, 75, 75, 0.589); 
+    border-left: 1px solid rgba(75, 75, 75, 0.589); 
+    border-right: 1px solid rgba(75, 75, 75, 0.589); 
+    border-bottom: 1px solid rgba(75, 75, 75, 0.589);
+}
+
+.like .unclicked img{
+    background-image: url("../../img/heart-unclicked.png");
+}
+
+.dislike .unclicked img{
+    background-image: url("../../img/broken-heart-unclicked.png");
+}
+
+.like .clicked img{
+    background-image: url("../../img/heart-liked.png");
+}
+
+.dislike .clicked img{
+    background-image: url("../../img/broken-heart-disliked.png");
+}
+
+.like,.dislike{
+    background-color: transparent; border: none
+}
+
+.like img,.dislike img{
+    width: 25px; height: 25px;
+}
+
+.userDesc{
+    width: 560px; margin: 0 auto; padding-top: 5px;
+}
+
+.username{
+    font-style: italic; font-weight: bold; 
+    color: white; margin-top: 25px;
+}
+
+.description{
+    width: 560px; text-align: justify; display: inline;
+}
+
+.userDesc{
+    width: 560px; margin: 0 auto; padding-top: 5px;
+}
+
+.lastcomments-container{
+    color:lightslategray; width: 560px; margin: 0 auto;
+}
+
+.textbox-container{
+    margin: 0 auto; width: 560px;
+}
+
+.txtComment{
+    display: inline-block; margin: 0;
+}
+
+.comment-preview{
+    width: 560px;
+}
+
+.txtComment{
+    background-color: rgba(0,0,0,0.15); border:none; 
+    border-bottom:1px solid floralwhite; 
+    border-radius:4px 4px 0px 0px; margin-top: 10px; 
+    width: 560px;
+}
+
+.blank-space{
+    width: 560px; height: 25px;
+}
+
+/*
+.like{
+    -webkit-user-select: none;
+}
+
+video::-webkit-media-controls-play-button {
+    
+}
+
+video::-webkit-media-controls-volume-slider {
+    display: none;
+}
+
+video::-webkit-media-controls-mute-button {}
+
+video::-webkit-media-controls-timeline {}
+
+video::-webkit-media-controls-current-time-display {
+    display: none;
+}*/
